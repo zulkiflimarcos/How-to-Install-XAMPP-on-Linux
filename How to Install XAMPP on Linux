@@ -1,0 +1,25 @@
+![1.png](https://steemitimages.com/DQmdKoNwaeJ26cX2aUCtExYhr8dA2V9gko7XFjFkYwPwVpB/1.png)
+***
+Linux is one of the operating system that is widely used by developers, in addition to the free license and many opensource applications that help developers in working on the project. In general linux is divided into several distro / linux descendants such as ubuntu, debian, open suse and others. and xampp one of the webserver packages that support for 3 operations ie windows, linux and macOS.
+
+To install xampp on linux and windows is very different from in linux install not only with double click but in other way, can online and offline, toturial under this we will try to use terminal to do modification of permissions on file xampp which we will install
+# Step Installation
+
+1. Download installer (installer) XAMPP. You can get it from [Xampp](apachefriends.org/download.html). Be sure to download the correct version for your computer system (32 bit or 64 bit).
+The guides in this article use version 5.6.3 for 64 bit. Make sure you change the commands here based on the version you installed.
+
+2. Open Terminal. Before you can install XAMPP, you must change the permissions of the download file so it can be executed.
+<center>![2.jpg](https://steemitimages.com/DQmeTGG3QwozswBKfVktvgzYXKpJCx5AR1Wvnz7UMmDf9Ub/2.jpg)</center>
+
+3. Change file permission. Enter the following command and press "Enter". Enter your password if needed:
+<code>sudo chmod + x xampp-linux-x64-5.6.3-0-installer.run</code>
+You can drag the downloaded file to the Terminal window to enter the file name and its location automatically.
+<center>![3.jpg](https://steemitimages.com/DQmU1y3w5T7Jw2e4UQsZ2kdQHgCFpr5cJZNQAzMHskEYsrB/3.jpg)</center>
+
+4. Run the installer. After changing the permissions, you can run the installer to start the XAMPP installation. Write the following command and press "Enter":
+<code>sudo ./xampp-linux-x64-5.6.3-0-installer.run</code>
+<center>![4.jpg](https://steemitimages.com/DQmYaLeK6G3EpK7Di6DiuCBiE7Gi4bB6FTDpovLxEQBYEeR/4.jpg)</center>
+
+5. Follow the instructions that appear to install XAMPP. The installer graphics will open and guide you through the rest of the installation process. Generally you can leave all the options according to their default settings. [1]
+You can uncheck Learn more about BitNami for XAMPP if you are not interested in knowing more about BitNami.
+<center>![5.jpg](https://steemitimages.com/DQmcZusmDygtJJbX12wCEheSxfRKyKLm6p6J263go2vYZSR/5.jpg)</center>
